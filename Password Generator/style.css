@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 450px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.result {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#passwordField {
+    flex: 1;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-family: monospace;
+}
+
+button {
+    padding: 10px 15px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+.options {
+    margin: 20px 0;
+}
+
+.options label {
+    display: block;
+    margin: 10px 0;
+}
+
+#generateBtn {
+    width: 100%;
+    font-size: 1.1rem;
+}
